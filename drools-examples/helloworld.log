@@ -1,0 +1,59 @@
+<object-stream>
+<org.drools.kiesession.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>1</type>
+      <factId>1</factId>
+      <objectToString>org.drools.examples.helloworld.HelloWorldExample$Message@9b76b60</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Hello World [1]</activationId>
+      <rule>Hello World</rule>
+      <declarations>message=Hello World; m=org.drools.examples.helloworld.HelloWorldExample$Message@9b76b60</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Hello World [1]</activationId>
+      <rule>Hello World</rule>
+      <declarations>message=Hello World; m=org.drools.examples.helloworld.HelloWorldExample$Message@9b76b60</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ObjectLogEvent>
+      <type>2</type>
+      <factId>1</factId>
+      <objectToString>org.drools.examples.helloworld.HelloWorldExample$Message@9b76b60</objectToString>
+    </org.drools.kiesession.audit.ObjectLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Hello World [1]</activationId>
+      <rule>Hello World</rule>
+      <declarations>message=Goodbye cruel world; m=org.drools.examples.helloworld.HelloWorldExample$Message@9b76b60</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>4</type>
+      <activationId>Good Bye [1]</activationId>
+      <rule>Good Bye</rule>
+      <declarations>message=Goodbye cruel world</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Good Bye [1]</activationId>
+      <rule>Good Bye</rule>
+      <declarations>message=Goodbye cruel world</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+    <org.drools.kiesession.audit.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Good Bye [1]</activationId>
+      <rule>Good Bye</rule>
+      <declarations>message=Goodbye cruel world</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.kiesession.audit.ActivationLogEvent>
+  </events>
+</org.drools.kiesession.audit.WorkingMemoryLog>
+</object-stream>
